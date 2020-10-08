@@ -38,9 +38,6 @@ public class Book {
 		this.category = category;
 	}
 
-	public String getTitle() {
-		return title;
-	}
 
 	public Long getBookId() {
 		return bookId;
@@ -48,6 +45,10 @@ public class Book {
 
 	public void setBookId(Long bookId) {
 		this.bookId = bookId;
+	}
+	
+	public String getTitle() {
+		return title;
 	}
 
 	public void setTitle(String title) {
